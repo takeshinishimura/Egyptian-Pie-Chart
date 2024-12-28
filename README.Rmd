@@ -1,7 +1,9 @@
-Egyptian Pie Chart
-================
+---
+title: "Egyptian Pie Chart"
+output: github_document
+---
 
-``` r
+```{r message = FALSE}
 library(dplyr)
 library(ggplot2)
 library(ggforce)
@@ -32,5 +34,3 @@ ggplot(data) +
     legend.title = element_blank()
   )
 ```
-
-![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
